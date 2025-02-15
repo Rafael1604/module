@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(51, 51, 53);
+    margin: 0;
+    
+}
+header{
+    background-color: rgb(233, 226, 124);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+header h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-self: center;
+    font-size: 30px;
+    color: rgb(150, 51, 141);
+    font-weight: bold;
+}
+
+.main{
+    background: ;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.img-btn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+img{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(78, 58, 58);
+    border-radius: 10px;
+}
+
+button{
+    border-radius: 20px;
+    background-color: rgb(99, 105, 13);
+    color: azure;
+    
+}
+
+.main-btn{
+    z-index: 1;
+    width: 100%;
+    background-color: rgb(46, 48, 48);
+    height: 100px;
+    display: flex;
+    text-align: center;
+/*forcing to center the parent div main-btn*/
+    justify-content: center;
+
+    
+}
+
+
+.btn-crl { 
+    align-self: center; /*center horizontal the buttons*/
+    background-color: rgb(148, 182, 171);
+    margin: 10px; /*margin of buttons*/
+    height: 20px;
+    width: 20px;
+    justify-content: center; /*number center*/
+    color: black;
+    padding: 20px;
+    display: flex;
+    border-radius: 50%;
+    text-decoration: none; 
+    padding: 10px;
+    font-weight: bold;
+    
+}
+#active{
+    background-color: aliceblue;
+}
+.btn-crl:hover{
+    background-color: azure;
+}
+
+    
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: rgb(143, 134, 9);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+h3{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    align-self: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
